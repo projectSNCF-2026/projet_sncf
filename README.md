@@ -88,6 +88,10 @@ Le jeu de données source est **Régularité mensuelle TGV** de SNCF Open Data 2
 [consulter et télécharger le jeu de données](https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-aqst/information/).
 Le CSV utilisé par le projet est `data/regularite-mensuelle-tgv-aqst.csv`.
 
+Une description des données utilisé par le projet est disponible dans `docs/datasheet.md`. Il documente le CSV de régularité mensuelle des TGV : sa source, son contenu, sa collecte, les traitements appliqués ainsi que les usages et les limites.
+
+Il sert notamment à comprendre ce que représente chaque ligne et à éviter les mauvaises interprétations.
+
 Les autres fichiers de `data/` sont utilisés par certaines pages :
 
 - `data/map/` contient les coordonnées des gares et les données du réseau
